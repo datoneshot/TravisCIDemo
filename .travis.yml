@@ -2,5 +2,5 @@ os: osx
 osx_image: xcode12
 language: swift
 xcode_project: DemoTravisCI/DemoTravisCI.xcodeproj # path to your xcodeproj folder
-xcode_scheme: DemoTravisCI
-xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
+xcode_scheme: DemoTravisCITests
+xcode_destination: "platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro"

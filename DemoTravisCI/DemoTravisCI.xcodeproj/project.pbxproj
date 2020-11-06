@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EB48C362554F36C0035188E /* DemoTravisCIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB48C352554F36C0035188E /* DemoTravisCIUITests.swift */; };
+		1EB48C462554F37A0035188E /* DemoTravisCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB48C452554F37A0035188E /* DemoTravisCITests.swift */; };
 		1EDCD48025546460009FD80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDCD47F25546460009FD80F /* AppDelegate.swift */; };
 		1EDCD48225546460009FD80F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDCD48125546460009FD80F /* SceneDelegate.swift */; };
 		1EDCD48425546460009FD80F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDCD48325546460009FD80F /* ViewController.swift */; };
@@ -15,7 +17,30 @@
 		1EDCD48C25546461009FD80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDCD48A25546461009FD80F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1EB48C382554F36C0035188E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EDCD47425546460009FD80F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EDCD47B25546460009FD80F;
+			remoteInfo = DemoTravisCI;
+		};
+		1EB48C482554F37A0035188E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EDCD47425546460009FD80F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EDCD47B25546460009FD80F;
+			remoteInfo = DemoTravisCI;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1EB48C332554F36C0035188E /* DemoTravisCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTravisCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB48C352554F36C0035188E /* DemoTravisCIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTravisCIUITests.swift; sourceTree = "<group>"; };
+		1EB48C372554F36C0035188E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB48C432554F37A0035188E /* DemoTravisCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTravisCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB48C452554F37A0035188E /* DemoTravisCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTravisCITests.swift; sourceTree = "<group>"; };
+		1EB48C472554F37A0035188E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EDCD47C25546460009FD80F /* DemoTravisCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTravisCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDCD47F25546460009FD80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EDCD48125546460009FD80F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +52,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1EB48C302554F36C0035188E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB48C402554F37A0035188E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1EDCD47925546460009FD80F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +76,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EB48C342554F36C0035188E /* DemoTravisCIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EB48C352554F36C0035188E /* DemoTravisCIUITests.swift */,
+				1EB48C372554F36C0035188E /* Info.plist */,
+			);
+			path = DemoTravisCIUITests;
+			sourceTree = "<group>";
+		};
+		1EB48C442554F37A0035188E /* DemoTravisCITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EB48C452554F37A0035188E /* DemoTravisCITests.swift */,
+				1EB48C472554F37A0035188E /* Info.plist */,
+			);
+			path = DemoTravisCITests;
+			sourceTree = "<group>";
+		};
 		1EDCD47325546460009FD80F = {
 			isa = PBXGroup;
 			children = (
 				1EDCD47E25546460009FD80F /* DemoTravisCI */,
+				1EB48C342554F36C0035188E /* DemoTravisCIUITests */,
+				1EB48C442554F37A0035188E /* DemoTravisCITests */,
 				1EDCD47D25546460009FD80F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				1EDCD47C25546460009FD80F /* DemoTravisCI.app */,
+				1EB48C332554F36C0035188E /* DemoTravisCIUITests.xctest */,
+				1EB48C432554F37A0035188E /* DemoTravisCITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +131,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1EB48C322554F36C0035188E /* DemoTravisCIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EB48C3C2554F36C0035188E /* Build configuration list for PBXNativeTarget "DemoTravisCIUITests" */;
+			buildPhases = (
+				1EB48C2F2554F36C0035188E /* Sources */,
+				1EB48C302554F36C0035188E /* Frameworks */,
+				1EB48C312554F36C0035188E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EB48C392554F36C0035188E /* PBXTargetDependency */,
+			);
+			name = DemoTravisCIUITests;
+			productName = DemoTravisCIUITests;
+			productReference = 1EB48C332554F36C0035188E /* DemoTravisCIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1EB48C422554F37A0035188E /* DemoTravisCITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EB48C4A2554F37A0035188E /* Build configuration list for PBXNativeTarget "DemoTravisCITests" */;
+			buildPhases = (
+				1EB48C3F2554F37A0035188E /* Sources */,
+				1EB48C402554F37A0035188E /* Frameworks */,
+				1EB48C412554F37A0035188E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EB48C492554F37A0035188E /* PBXTargetDependency */,
+			);
+			name = DemoTravisCITests;
+			productName = DemoTravisCITests;
+			productReference = 1EB48C432554F37A0035188E /* DemoTravisCITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1EDCD47B25546460009FD80F /* DemoTravisCI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EDCD49025546461009FD80F /* Build configuration list for PBXNativeTarget "DemoTravisCI" */;
@@ -96,6 +193,14 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					1EB48C322554F36C0035188E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1EDCD47B25546460009FD80F;
+					};
+					1EB48C422554F37A0035188E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1EDCD47B25546460009FD80F;
+					};
 					1EDCD47B25546460009FD80F = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -115,11 +220,27 @@
 			projectRoot = "";
 			targets = (
 				1EDCD47B25546460009FD80F /* DemoTravisCI */,
+				1EB48C322554F36C0035188E /* DemoTravisCIUITests */,
+				1EB48C422554F37A0035188E /* DemoTravisCITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1EB48C312554F36C0035188E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB48C412554F37A0035188E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1EDCD47A25546460009FD80F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +254,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1EB48C2F2554F36C0035188E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB48C362554F36C0035188E /* DemoTravisCIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB48C3F2554F37A0035188E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB48C462554F37A0035188E /* DemoTravisCITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1EDCD47825546460009FD80F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,6 +281,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EB48C392554F36C0035188E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EDCD47B25546460009FD80F /* DemoTravisCI */;
+			targetProxy = 1EB48C382554F36C0035188E /* PBXContainerItemProxy */;
+		};
+		1EB48C492554F37A0035188E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EDCD47B25546460009FD80F /* DemoTravisCI */;
+			targetProxy = 1EB48C482554F37A0035188E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1EDCD48525546460009FD80F /* Main.storyboard */ = {
@@ -165,6 +315,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1EB48C3A2554F36C0035188E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoTravisCIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datdn4.DemoTravisCIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoTravisCI;
+			};
+			name = Debug;
+		};
+		1EB48C3B2554F36C0035188E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoTravisCIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datdn4.DemoTravisCIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoTravisCI;
+			};
+			name = Release;
+		};
+		1EB48C4B2554F37A0035188E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoTravisCITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datdn4.DemoTravisCITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoTravisCI.app/DemoTravisCI";
+			};
+			name = Debug;
+		};
+		1EB48C4C2554F37A0035188E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoTravisCITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datdn4.DemoTravisCITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoTravisCI.app/DemoTravisCI";
+			};
+			name = Release;
+		};
 		1EDCD48E25546461009FD80F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,6 +544,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1EB48C3C2554F36C0035188E /* Build configuration list for PBXNativeTarget "DemoTravisCIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB48C3A2554F36C0035188E /* Debug */,
+				1EB48C3B2554F36C0035188E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EB48C4A2554F37A0035188E /* Build configuration list for PBXNativeTarget "DemoTravisCITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB48C4B2554F37A0035188E /* Debug */,
+				1EB48C4C2554F37A0035188E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1EDCD47725546460009FD80F /* Build configuration list for PBXProject "DemoTravisCI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
